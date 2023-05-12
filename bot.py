@@ -22,10 +22,6 @@ from datetime import datetime
 #sottodominio di lingua, da utilizzare per le chiamate API
 lingua = "es"
 
-#prefisso della pagina di discussione
-discussione = "Discusión:"
-discussioneURL = urllib.parse.quote(discussione)
-
 idwikidata = 1
 
 dimensione = 1
@@ -43,9 +39,12 @@ visualizzazioni = 1
 dimensioneIncipit = 1
 
 dimensioneDiscussione = 1
+#prefisso della pagina di discussione
+discussione = "Discusión:"
+discussioneURL = urllib.parse.quote(discussione)
 
 #de momento, el conteo de avisos no funciona para la wikipedia en español
-avvisi = 0
+configAvvisi = 0
 
 paginaCommons = 1
 
@@ -58,8 +57,12 @@ wikiversita = 1
 wikibooks = 1
 
 vetrina = 1
+#vetrina template
+vetrinaTemplate="{{artículo destacado"
 
 qualita = 1
+#voce di qualita template
+vdqTemplate="{{artículo bueno"
 
 vaglio = 1
 
@@ -79,11 +82,11 @@ def visite(voce):
 
   START = "20150701"; #YYYYMMGG
 
-  END   = "20211231";   #YYYYMMGG
+  END   = "20221231";   #YYYYMMGG
 
-  START2 = "20210101"; #YYYYMMGG
+  START2 = "20220101"; #YYYYMMGG
 
-  END2   = "20211231";   #YYYYMMGG
+  END2   = "20221231";   #YYYYMMGG
 
   DATE = []
 
@@ -407,7 +410,7 @@ def lunghezzaIncipit(text):
 
 def vdq(text):
 
-   if "{{voce di qualit" in text.lower():
+   if vdqTemplate in text.lower():
 
       return "1"
 
@@ -419,7 +422,7 @@ def vdq(text):
 
 def vetrina(text):
 
-   if "{{vetrina" in text.lower():
+   if vetrinaTemplate in text.lower():
 
       return "1"
 
@@ -434,12 +437,18 @@ def vetrina(text):
     
 
 def analisi():
-
    f = open('LISTA.txt', "r")
 
    vox = f.readlines()   
+    
+   # eliminare il contenuto del file prima di iniziare
+   resultati = open('resultati.txt',"w")
+   resultati.truncate(0)
+   resultati.close()
 
    for voce in vox:
+      
+      resultati = open('resultati.txt', 'a')  # aprire il file in modalità di aggiunta
 
       flag = 1
 
@@ -570,10 +579,10 @@ def analisi():
 
            
 
-        if avvisi:
+        if configAvvisi:
 
            for i in avvisi(wikitext):
-
+              print("some avisi")
               ris = ris + i + "\t"
 
                
@@ -658,8 +667,8 @@ def analisi():
 
               ris = ris + "\t" + "\t"
 
-         
-
+      resultati.write(ris + "\n")  # aggiungere un salto di linea dopo ogni risultato
+      resultati.close()  # chiudere il file
       print (ris)
 
      
