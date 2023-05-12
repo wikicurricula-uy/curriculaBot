@@ -32,7 +32,7 @@ dimensione = 1
 
 primoEdit = 1
 
-note         =  0
+note         =  1
 
 immagini  = 1
 
@@ -44,7 +44,8 @@ dimensioneIncipit = 1
 
 dimensioneDiscussione = 1
 
-avvisi = 1
+#de momento, el conteo de avisos no funciona para la wikipedia en español
+avvisi = 0
 
 paginaCommons = 1
 
