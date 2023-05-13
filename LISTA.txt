@@ -236,7 +236,7 @@ Bolsa_de_valores
 Constitución_de_los_Estados_Unidos
 Sudeste_Asiático
 Reglamento_General_de_Protección_de_Datos
-Países
+País
 Antiguo_Egipto
 Vasos_comunicantes
 Giuseppe_Pontiggia
@@ -476,7 +476,7 @@ Oración_principal
 Francia
 Guerras_turco-venecianas
 Cultura_nurágica
-Islas_de_Italia
+Geografía_de_Uruguay
 Marco_Aurelio
 Literatura_del_Barroco
 Casa_del_Pueblo
@@ -533,7 +533,7 @@ El_nacimiento_de_Venus_(Botticelli)
 Código_Civil_de_Francia
 Otón_III_del_Sacro_Imperio_Romano_Germánico
 Batalla_de_Francia
-Partidos_políticos_de_Italia
+Partidos_políticos_en_Uruguay
 Historia_del_periodismo
 El_cortesano
 Piet_Mondrian
@@ -1210,8 +1210,9 @@ Alegoría_de_la_caverna
 Fosforilación_oxidativa
 Imperio_romano
 Andorra
-División_política_de_Europa
-Países_de_África
+Anexo:División_política_de_Europa
+Anexo:División_política_de_América
+Anexo:Países_de_África
 Expedición_de_los_Mil
 Revolución_de_1820
 Chipre
@@ -1262,7 +1263,7 @@ Cuba
 Guerra_de_trincheras
 Alda_Merini
 Geosfera
-Aviación_en_la_Primera_Guerra_Mundial
+Aviación_durante_la_Primera_Guerra_Mundial
 Corazón_humano
 Alfabetismo_digital
 Dino_Buzzati
@@ -1765,7 +1766,7 @@ Ribosoma
 Magma
 Esteroide_sexual
 Corea_del_Norte
-Integrales
+Integración
 Sabana
 Cono_(geometría)
 Leucocito
@@ -1939,8 +1940,8 @@ Computación_en_la_nube
 Energía_de_ionización
 Estado_de_oxidación
 Superficie_(topología)
-Integrales_de_funciones_racionales
-Integrales_de_funciones_hiperbólicas
+Anexo:Integrales_de_funciones_racionales
+Anexo:Integrales_de_funciones_hiperbólicas
 Ecuación_de_primer_grado
 Organización_internacional
 Comercio_electrónico
@@ -2033,7 +2034,7 @@ Procesador_de_texto
 Producto_químico
 Francisco_de_Goya
 Sistema_solar
-Feminismo_en_Italia
+Feminismo
 Disolución
 Guerra_de_Irak
 Cordillera_de_los_Andes
@@ -2075,7 +2076,7 @@ Noche
 Año
 Regresión_marina
 Grado_(gramática)
-Integrales_de_funciones_exponenciales
+Anexo:Integrales_de_funciones_exponenciales
 Poetas_crepusculares
 Masaccio
 Piero_della_Francesca
@@ -2202,7 +2203,7 @@ Procesamiento_de_datos
 Enrique_IV_(Pirandello)
 Maquia
 India
-Política_de_Italia
+Política_de_Uruguay
 Capitulaciones_de_Quierzy
 Giovanni_Berchet
 Gravedad_de_la_Tierra
@@ -2243,7 +2244,7 @@ Giovanni_Pontano
 Ecología
 Linfocito
 Primer_Triunvirato_(Antigua_Roma)
-División_política_de_Asia
+Anexo:División_política_de_Asia
 Etología
 Movimiento_circular
 Genética
@@ -2367,7 +2368,7 @@ Unesco
 Declaración_Universal_de_los_Derechos_Humanos
 Giotto
 Geografía_de_África
-División_política_de_Oceanía
+Anexo:División_política_de_Oceanía
 Organización_Mundial_del_Comercio
 Compañía_comercial
 Rudolf_Steiner
@@ -2529,7 +2530,7 @@ Decadentismo
 Esclavitud
 Ciclo_biogeoquímico
 Cuadrado_de_Polibio
-Integrales_de_funciones_trigonométricas
+Anexo:Integrales_de_funciones_trigonométricas
 Resto
 Fuentes_del_derecho
 Humanismo_renacentista
@@ -2610,7 +2611,7 @@ Propiedades_intensivas_y_extensivas
 Reducción_(química)
 Respiración_celular
 Luz
-Países_de_América_del_Sur
+Anexo:Países_de_América_del_Sur
 Sócrates
 Sistema_operativo
 Lenguaje_de_programación
@@ -2693,3 +2694,4 @@ Vaso_sanguíneo
 Juan_Pablo_II
 Panteón_de_Agripa
 Selección_artificial
+
