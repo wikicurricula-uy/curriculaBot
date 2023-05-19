@@ -368,7 +368,6 @@ Totalitarismo
 Crisis_de_los_misiles_de_Cuba
 Contrarreforma
 Lacio
-Caso_(gramática)
 Geografía_humana
 Península_ibérica
 Abruzos
@@ -393,7 +392,6 @@ Relación_binaria
 Relación_de_equivalencia
 Acrópolis_de_Atenas
 Positivismo
-Caso_nominativo
 Maria_Montessori
 Contaminación_atmosférica
 Benelux
@@ -449,7 +447,6 @@ Madera_para_la_construcción
 Entorno_de_desarrollo_integrado
 Eustatismo
 Regla_de_los_signos_de_Descartes
-Plurale_tantum
 Expansión_terrestre
 Fábula_togata
 Lenin
@@ -490,15 +487,12 @@ Molise
 Apulia
 Reino_Unido
 Basilicata
-Caso_dativo
 Tratado_de_Lodi
 Sidereus_nuncius
 Calabria
 Sicilia
-Caso_acusativo
 Cerdeña
 Óptica
-Caso_genitivo
 Saqueo_de_Roma_(455)
 Saqueo_de_Roma_(410)
 Estados_generales_de_1789
@@ -523,7 +517,6 @@ Viejo_Oeste
 Novela_corta
 Fernando_de_Magallanes
 África
-Ablativo_absoluto
 Fernando_I_del_Sacro_Imperio_Romano_Germánico
 Víctor_Manuel_III_de_Italia
 Bloque_occidental
@@ -572,7 +565,6 @@ Alcohol
 Historia_de_la_Tierra
 Lansquenete
 Historia_de_las_ciudades
-Ablativo_(gramática)
 Triángulo_equilátero
 Descubrimientos_portugueses
 Rotación_trienal
@@ -878,7 +870,6 @@ Literatura_en_latín
 Revolución_rusa_de_1905
 Modo_gramatical
 Dieléctrico
-Caso_vocativo
 Diagrama_de_flujo
 Promoción_de_la_salud
 Transición_de_fase
@@ -1057,7 +1048,6 @@ Directorio
 Corsario
 Valdense
 Crac_del_29
-Caso_locativo
 Cesare_Pavese
 Llanura_Padana
 Impacto_ambiental
@@ -1402,7 +1392,6 @@ Escultura_etrusca
 América_Central
 Holocausto
 Mijaíl_Bakunin
-Gramática_del_latín
 Desestalinización
 La_isla_de_Arturo
 Bisectriz
@@ -1691,7 +1680,6 @@ Presión
 Mitocondria
 Computadora_portátil
 Hardware
-Latín
 Países_bálticos
 Microorganismo
 Averroes
@@ -2040,7 +2028,6 @@ Guerra_de_Irak
 Cordillera_de_los_Andes
 Lamentación_sobre_Cristo_muerto_(Mantegna)
 Comité_de_Liberación_Nacional
-Supino
 Países_Bajos
 Pietro_Verri
 Alfabeto_italiano
@@ -2113,7 +2100,6 @@ Meteorito
 Antonio_Genovesi
 Dadaísmo
 Presentación
-Singulare_tantum
 Proceso_exotérmico
 Regiones_polares
 Caída_del_Imperio_romano_de_Occidente
@@ -2285,7 +2271,6 @@ Partido_político
 Derivación_(lingüística)
 Animalia
 Nazismo
-Gerundivo
 Giuseppe_Verdi
 Alemania_nazi
 Cristóbal_Colón
@@ -2642,7 +2627,6 @@ Contrato
 Código_de_Hammurabi
 Modelo_OSI
 Función_trigonométrica
-Consecutio_temporum
 Novecento_(arte)
 Clave_primaria
 John_Locke
