@@ -55,7 +55,7 @@ Teatro_de_operaciones_del_Extremo_Oriente_y_el_Pacífico_(Primera_Guerra_Mundial
 Julio_César
 Integración_europea
 Fase_(materia)
-Fenicios
+Fenicia
 Firmware
 Caspar_David_Friedrich
 Sudán
@@ -84,7 +84,7 @@ Locus
 Web_3.0
 Ecuación_exponencial
 Evolución_biológica
-Tercer_sector
+Economía_social
 Alessandro_Manzoni
 Organización_de_las_Naciones_Unidas
 Teorema_del_emparedado
@@ -296,7 +296,7 @@ Futuro_perfecto
 Trentino-Alto_Adigio
 Segunda_guerra_civil_de_la_República_romana
 Estepa
-Presente_perfecto
+Pretérito_perfecto_compuesto
 Sección_cónica
 Conductor_eléctrico
 Véneto
@@ -354,7 +354,6 @@ Auguste_Comte
 Electricidad
 Toscana
 Maimónides
-Ciudadanía_italiana
 Máquina_de_vapor
 Marcas
 Declaración_de_Independencia_de_los_Estados_Unidos
@@ -746,7 +745,7 @@ Triángulo_de_Pascal
 Límite_(matemática)
 Fidias
 Dos_puntos
-Femenino_(género)
+Género_gramatical
 Amazonia
 Campo_electromagnético
 Subconjunto
@@ -764,7 +763,7 @@ Razón
 Política_monetaria
 Filosofía_presocrática
 Deriva_continental
-Oxidación
+Reducción-oxidación
 Periférico_(informática)
 Atomismo
 Herencia_genética
@@ -1011,7 +1010,7 @@ Núcleo_de_la_Tierra
 Calzada_romana
 Potencial_de_acción
 Función_monótona
-Buscador
+Motor_de_búsqueda
 Alcalino
 Alcalinotérreos
 Semimetal
@@ -1371,7 +1370,7 @@ Presupuesto_público
 Étienne_Bonnot_de_Condillac
 Villa_Adriana
 Fiebre_del_oro
-Integración_por_partes
+Métodos_de_integración
 Guerras_italianas_(1494-1559)
 Empiriocriticismo
 África_del_Norte
@@ -1522,7 +1521,7 @@ Arte_de_la_Antigua_Roma
 Pirámide_(geometría)
 Micronesia
 Ciencia
-Neutralización
+Reacción_ácido-base
 Antonio_Rosmini
 Pintura_etrusca
 Guerra_del_Peloponeso
@@ -1660,7 +1659,7 @@ Millón
 Asteroide
 Naturaleza_muerta_con_manzanas
 Escala_sismológica_de_Richter
-Linux
+GNU/Linux
 Numeración_romana
 El_vizconde_demediado
 Raíz_cuadrada_de_dos
@@ -1743,7 +1742,7 @@ Peste_negra
 Soberanía
 Roca_ígnea
 Telescopio
-Ciudadanía
+Ciudadano
 Henri_Bergson
 Petroglifo
 Caravaggio
@@ -1910,7 +1909,7 @@ Unidad_de_medida
 SQL
 Babilonia_(reino)
 Pool_(magistratura_italiana)
-Posmodernismo
+Filosofía_posmoderna
 Guerra_gótica_(535-554)
 Dieta_de_Roncaglia
 Asia
@@ -1956,7 +1955,6 @@ Tribunal_de_Justicia_de_la_Unión_Europea
 Lapilli
 Oxácido
 Economía_circular
-Masculino_(género)
 Ley_de_Hardy-Weinberg
 John_Stuart_Mill
 Émile_Zola
@@ -2005,7 +2003,7 @@ Enciclopedia
 Memoria_de_acceso_aleatorio
 Unidad_central_de_procesamiento
 Libertad_negativa
-Oceanía_insular
+Oceanía
 Configuración_electrónica
 Orbital_atómico
 Paralelismo_(matemática)
@@ -2145,7 +2143,7 @@ Senado_de_la_República_(Italia)
 Planeta
 Hominidae
 Cosa_(derecho)
-Conquista_del_Perú
+Conquista_del_Imperio_incaico
 Placiti_cassinesi
 Proceso_para_el_desarrollo_de_software
 Arquitectura_de_red
@@ -2157,7 +2155,7 @@ Electrólisis
 Termómetro
 Evolución_estelar
 Descarga_de_música
-Expresión_matemática
+Fórmula_(expresión)
 Elisión
 Pinocho
 Nomenclatura_química
@@ -2336,7 +2334,7 @@ Lente
 Erupción_volcánica
 Estepa_euroasiática
 Mañana
-Anochecer
+Ocaso
 Minuto
 Luis_XIV_de_Francia
 Derecho
@@ -2446,7 +2444,7 @@ Número_e
 Roca_sedimentaria
 Ciclo_del_nitrógeno
 Fricción
-Puntuación_(lingüística)
+Signos_de_puntuación
 Cristalografía_de_rayos_X
 María_I_de_Inglaterra
 Reducción-oxidación
@@ -2643,7 +2641,10 @@ Océano
 Dispersión_de_los_propágulos
 Tomás_de_Aquino
 Paolo_Veronese
-Bosque_lluvioso
+Selva_tropical
+Pluvisilva
+Bosque_templado_húmedo
+Bosque_magallánico
 Mahoma
 Pintura_gótica
 Túnez
