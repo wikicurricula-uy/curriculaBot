@@ -240,7 +240,7 @@ País
 Antiguo_Egipto
 Vasos_comunicantes
 Giuseppe_Pontiggia
-Neorrealismo
+Literatura_del_neorrealismo
 De_agri_cultura
 Base_de_datos_orientada_a_objetos
 Fuerza_restauradora
