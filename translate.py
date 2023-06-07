@@ -26,7 +26,7 @@ def create_subject_mapping(file_path):
 subject_map = create_subject_mapping("subjects.tsv");
 
 # Open the input file
-with open('2022/resultati.txt', 'r', encoding='utf-8') as input_file:
+with open('resultati.txt', 'r', encoding='utf-8') as input_file:
 
     input_header = [
         'article',
