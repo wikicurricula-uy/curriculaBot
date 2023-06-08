@@ -470,7 +470,6 @@ Agente_económico
 Idioma_occitano
 Oración_principal
 Francia
-Guerras_turco-venecianas
 Cultura_nurágica
 Geografía_de_Uruguay
 Marco_Aurelio
@@ -527,7 +526,6 @@ Otón_III_del_Sacro_Imperio_Romano_Germánico
 Batalla_de_Francia
 Partidos_políticos_en_Uruguay
 Historia_del_periodismo
-El_cortesano
 Piet_Mondrian
 Pez
 Sustantivo_contable
@@ -1182,7 +1180,6 @@ Arquitectura_gótica_en_Italia
 El_sistema_periódico
 Bosnia_y_Herzegovina
 Epistolario
-Leyes_Siccardi
 Entes_fundamentales_de_la_geometría
 Referéndum_de_Italia_de_1946
 Conjunto_vacío
@@ -1469,7 +1466,6 @@ Marco_Pacuvio
 Marsilio_de_Padua
 Arnold_Geulincx
 Guido_Cavalcanti
-Lanfranco_de_Canterbury
 Leonardo_Sciascia
 Jacopone_da_Todi
 Galaxia
@@ -2580,7 +2576,6 @@ Piratería_berberisca
 Teoría_ácido-base_de_Lewis
 Arquitectura_en_hierro
 Europa_Central_y_Oriental
-Dictatus_Papae
 James_Watt
 Gottfried_Leibniz
 Karl_Marx
@@ -2674,9 +2669,7 @@ Conquista_de_Yucatán
 Derecho_informático
 Corte_Constitucional_de_Italia
 Sandro_Penna
-Masuccio_Salernitano
 Vaso_sanguíneo
 Juan_Pablo_II
 Panteón_de_Agripa
 Selección_artificial
-
