@@ -32,8 +32,6 @@ note         =  1
 
 immagini  = 1
 
-primoEdit = 1
-
 visualizzazioni = 1
 
 dimensioneIncipit = 1
@@ -71,30 +69,62 @@ bibliografia = 1
 coordinate = 1
 
 
+def get_avg_pageviews(voce, start, end):
+  SOMMA = 0;
+
+  try:
+
+    url = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"+lingua+".wikipedia/all-access/user/"+voce+"/daily/"+start+"/"+end
+   
+    html = urlopen(url).read()
 
 
 
+    html = str(html);
+
+    html = html.replace('{"items":[',"")
+
+    html = html.replace(']}',"")
+
+    n = html.count("}")
+
+
+
+    for i in range(n):
+
+       txt = html[:html.find("}")+1]
+
+       SOMMA += int(txt[txt.find('"views":')+len('"views":'):-1])
+
+       html =html.replace(txt,"",1)
+
+    ris = str(int(round((SOMMA/365),0)))
+
+  except:
+
+    ris = "ERRORE"
+  
+  return ris
+
+# returns visits since the beginning of time, average dayly visits since the begininning of time, average daily visits in the specified year
 def visite(voce):
 
+  #YYYYMMGG
+  START_ALL_TIME = "20150701"; 
 
+  START_PREV_YEAR = "20210101";
+  END_PREV_YEAR = "20211231";
 
-  #START = "20200101"; #YYYYMMGG
-
-  START = "20150701"; #YYYYMMGG
-
-  END   = "20221231";   #YYYYMMGG
-
-  START2 = "20220101"; #YYYYMMGG
-
-  END2   = "20221231";   #YYYYMMGG
+  START_CURRENT_YEAR = "20220101";
+  END_CURRENT_YEAR   = "20221231";  
 
   DATE = []
 
 
+  #calculate ris1, total pageviews since the beginning of time, and ris2, average pageviews since de beginning of time
+  d1 = datetime.strptime(START_ALL_TIME, "%Y%m%d")
 
-  d1 = datetime.strptime(START, "%Y%m%d")
-
-  d2 = datetime.strptime(END, "%Y%m%d")
+  d2 = datetime.strptime(END_CURRENT_YEAR, "%Y%m%d")
 
   giorni = (abs((d2 - d1).days)+1)
 
@@ -102,13 +132,11 @@ def visite(voce):
 
   VOCE = voce.replace(" ","_")
 
-  VALORI = []
-
   SOMMA = 0
 
   try:
 
-    url ="https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"+lingua+".wikipedia/all-access/user/"+VOCE+"/daily/"+START +"/" + END
+    url ="https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"+lingua+".wikipedia/all-access/user/"+VOCE+"/daily/"+START_ALL_TIME +"/" + END_CURRENT_YEAR
 
     html = urlopen(url).read()
 
@@ -146,47 +174,15 @@ def visite(voce):
 
     ris2 = "ERRORE"
 
-   
+  #calculate ris3, average pageviews from previous year
+  ris3 = get_avg_pageviews(VOCE, START_PREV_YEAR, END_PREV_YEAR)
 
-  VALORI = [];
-
-  SOMMA = 0;
-
-  try:
-
-    url = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"+lingua+".wikipedia/all-access/user/"+VOCE+"/daily/"+START2 +"/" + END2
-
-    html = urlopen(url).read()
-
-
-
-    html = str(html);
-
-    html = html.replace('{"items":[',"")
-
-    html = html.replace(']}',"")
-
-    n = html.count("}")
-
-
-
-    for i in range(n):
-
-       txt = html[:html.find("}")+1]
-
-       SOMMA += int(txt[txt.find('"views":')+len('"views":'):-1])
-
-       html =html.replace(txt,"",1)
-
-    ris3 = str(int(round((SOMMA/365),0)))
-
-  except:
-
-    ris3 = "ERRORE"
+  #calculate ris4, average pageviews from current year
+  ris4 = get_avg_pageviews(VOCE, START_CURRENT_YEAR, END_CURRENT_YEAR)
 
    
-
-  return str(ris1), str(ris2), str(ris3)
+  print(str(ris1), str(ris2), str(ris3), str(ris4)) 
+  return str(ris1), str(ris2), str(ris3), str(ris4)
 
 
 
@@ -232,7 +228,6 @@ def primoEdit(voce):
   try:
 
     url ="https://xtools.wmflabs.org/api/page/articleinfo/"+lingua+".wikipedia.org/"+voce.replace(" ","_")
-
     html = urlopen(url).read()
 
     html = str(html)
@@ -465,7 +460,7 @@ def analisi():
       voce2 = urllib.parse.quote(voce)
 
       voce = voce.replace(" ","_")
-
+      print(voce)
 
 
       try:
@@ -507,8 +502,6 @@ def analisi():
         data = json.loads(json_url.read())
 
         wikidataid = data["query"]["pages"][0]["pageprops"]["wikibase_item"]
-
-
 
         url ="https://www.wikidata.org/wiki/Special:EntityData/"+wikidataid+".json"
 
