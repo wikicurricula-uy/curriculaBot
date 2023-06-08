@@ -284,7 +284,6 @@ Tratado_de_Brest-Litovsk
 Inercia
 Wiligelmo_de_Módena
 División_(matemática)
-Vittorio_Sereni
 Miles_gloriosus
 Francesco_Borromini
 La_locandiera
@@ -1868,7 +1867,6 @@ Arte_románico
 Arte_gótico
 Método_científico
 Elio_Vittorini
-Luigi_Capuana
 Pronombre_personal
 Camorra
 Marcha_sobre_Roma
@@ -2492,7 +2490,6 @@ Cámara_de_Diputados_(Italia)
 Aparato_reproductor_masculino
 Estado_socialista
 Sociedad
-Microsoft_Tablet_PC
 Pakistán
 Familia
 Aparato_genital_femenino
