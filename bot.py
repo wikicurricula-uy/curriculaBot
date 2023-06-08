@@ -181,7 +181,6 @@ def visite(voce):
   ris4 = get_avg_pageviews(VOCE, START_CURRENT_YEAR, END_CURRENT_YEAR)
 
    
-  print(str(ris1), str(ris2), str(ris3), str(ris4)) 
   return str(ris1), str(ris2), str(ris3), str(ris4)
 
 
@@ -460,7 +459,6 @@ def analisi():
       voce2 = urllib.parse.quote(voce)
 
       voce = voce.replace(" ","_")
-      print(voce)
 
 
       try:
