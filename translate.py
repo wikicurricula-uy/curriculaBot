@@ -3,12 +3,14 @@ import csv
 from datetime import datetime
 
 def get_days_between(start_date_str, end_date_str):
+    if (not start_date_str or start_date_str =="ERRORE" or end_date_str =="ERRORE"): return 0
     start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
     end_date = datetime.strptime(end_date_str, "%Y-%m-%d")
     days_between = (end_date - start_date).days
     return days_between
 
 def get_incipit_on_size(incipit_size,size):
+    if (not incipit_size or not size): return 0;
     return round((int(incipit_size) / int(size))*100,2)
 
 def create_subject_mapping(file_path):
@@ -38,8 +40,9 @@ with open('resultati.txt', 'r', encoding='utf-8') as input_file:
         'discussion_size',
         'incipit_size',
         'all_visits',
+        'avg_pv_all_time',
+        'avg_pv_prev',
         'avg_pv',
-        'visitas_diarias_promedio_en_el_último_año_lectivo',
         'vetrina',
         'VdQ',
         'galleria_su_Commons',
@@ -60,7 +63,7 @@ with open('resultati.txt', 'r', encoding='utf-8') as input_file:
             'article': row['article'],
             'subject': subject_map.get(row['id_wikidata']),
             'avg_pv': row['avg_pv'],
-            'avg_pv_prev': '-',
+            'avg_pv_prev': row['avg_pv_prev'],
             'size': row['size'],
             'size_prev': '-',
             'notes': row['notes'],
