@@ -97,8 +97,11 @@ def get_avg_pageviews(voce, start, end):
        SOMMA += int(txt[txt.find('"views":')+len('"views":'):-1])
 
        html =html.replace(txt,"",1)
-
-    ris = str(int(round((SOMMA/365),0)))
+    
+    d1 = datetime.strptime(start, "%Y%m%d")
+    d2 = datetime.strptime(end, "%Y%m%d")
+    giorni = (abs((d2 - d1).days)+1)
+    ris = str(int(round((SOMMA/giorni),0)))
 
   except:
 
@@ -112,11 +115,11 @@ def visite(voce):
   #YYYYMMGG
   START_ALL_TIME = "20150701"; 
 
-  START_PREV_YEAR = "20210101";
-  END_PREV_YEAR = "20211231";
+  START_PREV_YEAR = "20220101";
+  END_PREV_YEAR = "20221231";
 
-  START_CURRENT_YEAR = "20220101";
-  END_CURRENT_YEAR   = "20221231";  
+  START_CURRENT_YEAR = "20230101";
+  END_CURRENT_YEAR   = "20230831";  
 
   DATE = []
 
@@ -127,8 +130,6 @@ def visite(voce):
   d2 = datetime.strptime(END_CURRENT_YEAR, "%Y%m%d")
 
   giorni = (abs((d2 - d1).days)+1)
-
-
 
   VOCE = voce.replace(" ","_")
 
@@ -431,7 +432,7 @@ def vetrina(text):
     
 
 def analisi():
-   f = open('LISTA.txt', "r")
+   f = open('query.csv', "r")
 
    vox = f.readlines()   
     
